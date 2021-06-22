@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-export default function DestinationCard({destination}){
+export default function projectCard({destination}){
     return (
         <div key={destination.city} className="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
         <img
