@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Header */}
       <Header/>
-<video autoPlay loop muted className="min-w-full">
+<video autoPlay loop muted className="min-w-full lg:max-h-md">
           <source src="/movie.mp4" type="video/mp4"/>
           Your browser does not support the video tag.
 
