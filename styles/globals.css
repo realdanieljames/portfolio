@@ -4,6 +4,6 @@
 @layer components {
     .header_button {
         @apply hidden sm:flex justify-center bg-purple-700 text-white 
-        cursor-pointer h-20 mt-5 p-7 text-2xl hover:bg-purple-900 rounded-lg active:bg-purple-500 
+        cursor-pointer h-16 mt-8 mx-20 p-5 text-2xl hover:bg-purple-900 rounded-lg active:bg-purple-500 
     }
 }

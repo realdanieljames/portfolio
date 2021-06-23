@@ -1,27 +1,34 @@
+import React from "react";
 
-import React from 'react';
+export default function projectCard({ project }) {
 
+  return (
 
-export default function projectCard({destination}){
-    return (
-        <div key={destination.city} className="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
-        <img
-        className="h-32 w-32 flex-shrink-0"
-        src={destination.imageUrl}
-        alt={destination.imageAlt}
-        />
-        <div className="px-6 py-4">
-        <h3 className="text-lg font-semibold text-gray-800">{destination.city}</h3>
-        <p className="text-gray-600">${destination.averagePrice} / night average</p>
-        <div className="mt-4">
-            <a
-            href="#"
-            className="text-brand-dark hover:text-brand font-semibold text-sm"
-            >
-            Explore {destination.propertyCount} properties
-            </a>
+    <div className='grid grid-rows-4 grid-flow-col'>
+        {/* Image div */}
+        <div className="w-96 mt-5">
+        <video autoPlay loop muted className="rounded-lg">
+            <source src={project.imageUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
         </div>
+
+
+        {/* Title/Name div */}
+        <div className="">
+            {project.name}
         </div>
-    </div>
-    )
+
+
+        {/* description div */}
+        <div className="">
+            {project.projectDescription}
+        </div>
+        
+        
+        {/* URL div */}
+        <div></div>
+
+  </div>
+      )
 }

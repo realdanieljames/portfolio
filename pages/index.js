@@ -4,28 +4,26 @@ import PortfolioSection from "../components/PortfolioSection";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Daniel James Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Header */}
-      <Header/>
-<video autoPlay loop muted className="min-w-full lg:max-h-md">
-          <source src="/movie.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
+      <Header />
 
-        </video>
-    
-
-      {/* <main className="bg-main_container_cream h-screen grid grid-cols-3 gap-4"> */}
-      <main className="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
-          <h1 className="text-3xl text-purple-700">Popular Projects </h1>
-        <div>
+      <video autoPlay loop muted className=" mt-0 min-w-full lg:max-h-sm">
+        <source src="/movie.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <main className="bg-heading_blue h-screen lg:grid grid-cols-3 grid-rows-2">
+        <div className="grid justify-items-center ">
+        <h1 className="text-3xl text-purple-700 font-semibold mt-5">Popular Projects </h1>
+        </div>
+        <div className="grid justify-items-center mt-17  mx-24">
           {/* Portfoliio sectin */}
-          <PortfolioSection/>
-        
+          <PortfolioSection />
         </div>
       </main>
     </div>
