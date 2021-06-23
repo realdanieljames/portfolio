@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.1",
     "next": "latest",
     "postcss-import": "^14.0.2",
     "react": "^17.0.1",

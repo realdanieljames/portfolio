@@ -3,6 +3,7 @@
 @tailwind utilities;
 @layer components {
     .header_button {
-        @apply flex justify-center bg-purple-700 text-white cursor-pointer
+        @apply hidden sm:flex justify-center bg-purple-700 text-white 
+        cursor-pointer h-20 mt-5 p-7 text-2xl hover:bg-purple-900 rounded-lg active:bg-purple-500 
     }
 }
