@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .header_button {
+        @apply flex justify-center bg-purple-700 text-white cursor-pointer
+    }
+}

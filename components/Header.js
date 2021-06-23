@@ -1,13 +1,16 @@
 import Image from "next/image";
 function Header() {
   return (
+    // ============= Contains the header / navBar of project============================//
     <header>
       <div className=" grid grid-cols-3 bg-heading_blue">
 
-        {/* Left */}
-        <div className="flex justify-center">
+        {/* ==== LEFT Side of header bar ======== */}
+        <div className="header_button">
           Web Developer
         </div>
+
+        {/* ==== CENTER Side of header bar ======== */}
         <div className="cursor-pointer h-10 p-4">
             <div className=" flex justify-center cursor-pointer">
 
@@ -21,7 +24,7 @@ function Header() {
         </div>
 
         {/* Right */}
-        <div className="flex justify-center">
+        <div className="header_button">
           ECN TRADER
         </div>
       </div>
