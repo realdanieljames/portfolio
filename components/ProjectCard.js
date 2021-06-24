@@ -4,11 +4,11 @@ export default function projectCard({ project }) {
 
   return (
 
-    <div className='hover:cursor-pointer my-5  bg-main_container_cream p-7 rounded-xl'>
+    <div className='hover:cursor-pointer hover:py-16 hover:m-0 my-5  bg-main_container_cream p-10 rounded-xl'>
         {/* Image div */}
-        <div className="w-96">
-        <h4 className="font-bold underline grid justify-items-center p-6 ">{project.name}</h4>
-        <video autoPlay loop muted className="rounded-lg">
+        <div className="w-auto grid justify-items-center ">
+        <h4 className="font-bold text-xl underline p-6 text-purple-900 ">{project.name}</h4>
+        <video autoPlay loop muted className="grid justify-items-center rounded-lg  ">
             <source src={project.imageUrl} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
@@ -36,4 +36,3 @@ export default function projectCard({ project }) {
   </div>
       )
 }
-0
