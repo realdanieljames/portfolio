@@ -4,7 +4,7 @@ export default function projectCard({ project }) {
 
   return (
 
-    <div className='hover:cursor-pointer bg-main_container_cream p-7 rounded-xl'>
+    <div className='hover:cursor-pointer my-5  bg-main_container_cream p-7 rounded-xl'>
         {/* Image div */}
         <div className="w-96">
         <h4 className="font-bold underline grid justify-items-center p-6 ">{project.name}</h4>
@@ -13,6 +13,8 @@ export default function projectCard({ project }) {
             Your browser does not support the video tag.
         </video>
         </div>
+        <hr />
+     
 
 
         {/* Title/Name div */}
@@ -34,3 +36,4 @@ export default function projectCard({ project }) {
   </div>
       )
 }
+0
