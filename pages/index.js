@@ -19,7 +19,7 @@ export default function Home() {
       </video>
       <main className="bg-heading_blue h-screen lg:grid grid-cols-3 grid-rows-2">
         <div className="grid justify-items-center ">
-        <h1 className="text-3xl text-purple-700 font-semibold mt-5">Popular Projects </h1>
+        <h1 className="text-3xl text-purple-700 font-semibold my-7">Popular Projects </h1>
         </div>
         <div className="grid justify-items-center mt-17  mx-24">
           {/* Portfoliio sectin */}

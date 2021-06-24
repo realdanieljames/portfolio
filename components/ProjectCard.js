@@ -4,9 +4,10 @@ export default function projectCard({ project }) {
 
   return (
 
-    <div className='grid grid-rows-4 grid-flow-col'>
+    <div className='hover:cursor-pointer bg-main_container_cream p-7 rounded-xl'>
         {/* Image div */}
-        <div className="w-96 mt-5">
+        <div className="w-96">
+        <h4 className="font-bold underline grid justify-items-center p-6 ">{project.name}</h4>
         <video autoPlay loop muted className="rounded-lg">
             <source src={project.imageUrl} type="video/mp4" />
             Your browser does not support the video tag.
@@ -15,14 +16,15 @@ export default function projectCard({ project }) {
 
 
         {/* Title/Name div */}
-        <div className="">
-            {project.name}
+        <div className="p-5 ">
+            
+            {project.projectDescription}
         </div>
 
 
         {/* description div */}
         <div className="">
-            {project.projectDescription}
+            {/* {project.projectDescription} */}
         </div>
         
         
