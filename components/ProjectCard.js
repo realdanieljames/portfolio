@@ -4,7 +4,7 @@ export default function projectCard({ project }) {
 
   return (
 
-    <div className='hover:cursor-pointer hover:py-16 hover:m-0 my-5  bg-main_container_cream p-10 rounded-xl'>
+    <div className='hover:cursor-pointer hover:py-16 hover:m-0 my-5 bg-main_container_cream p-10 rounded-xl'>
         {/* Image div */}
         <div className="w-auto grid justify-items-center ">
         <h4 className="font-bold text-xl underline p-6 text-purple-900 ">{project.name}</h4>
