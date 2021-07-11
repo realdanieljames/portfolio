@@ -13,16 +13,18 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      <video autoPlay loop muted className=" mt-0 min-w-full ">
+      <video autoPlay loop muted className=" mt-0 min-w-full lg:h-auto xl:h-96 xl:w-96">
+
         <source src="/movie.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <main className="bg-heading_blue h-full lg:grid grid-cols-3 grid-rows-2">
-        <div className="grid justify-items-center ">
+      {/* <main className="bg-heading_blue h-full lg:grid grid-cols-3 grid-rows-2"> */}
+      <main className="bg-heading_blue h-full">
+        <div className="grid justify-items-center">
         <h1 className="text-3xl text-purple-700 font-semibold my-7">Popular Projects </h1>
         </div>
         
-        <div className="grid justify-items-center mt-17  mx-24">
+        <div className="grid justify-items-center mt-17  mx-24 ">
           {/* Portfoliio sectin */}
           <PortfolioSection />
         </div>

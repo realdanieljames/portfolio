@@ -14,7 +14,7 @@ function Header() {
        
         <div className="header_button">
           
-         <h1> Web Developer</h1>
+         <h1> Daniel, The Website Builder</h1>
         </div>
 
         {/* ==== CENTER Side of header bar ======== */}
