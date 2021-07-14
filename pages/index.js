@@ -1,34 +1,41 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import SideBar from "../components/SideBar";
 import PortfolioSection from "../components/PortfolioSection";
 
 export default function Home() {
   return (
-    <div className="bg-heading_blue ">
-      <Head>
-        <title>Daniel James Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div>
+      <div className="bg-heading_blue ">
+        <Head>
+          <title>Daniel James Portfolio</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      {/* Header */}
-      <Header />
+        <div className="grid grid-cols-2">
+          {/* ===================================== {{ SiDEBAR }} =============================*/}
+          <div>
+            <SideBar />
+          </div>
+          {/* ====================== {{ Header }} ================================================== */}
+          <div>
+            <Header className="z-10" />
 
-      <video autoPlay loop muted className=" mt-0 min-w-full lg:h-auto xl:h-96 xl:w-96">
+            {/* ====================== {{ PORTFOLIO SECTION }} ================================================== */}
+            <main className="bg-heading_blue h-full">
+              <div className="grid justify-items-center">
+                <h1 className="text-3xl text-purple-700 font-semibold my-7">
+                  Popular Projects{" "}
+                </h1>
+              </div>
 
-        <source src="/movie.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      {/* <main className="bg-heading_blue h-full lg:grid grid-cols-3 grid-rows-2"> */}
-      <main className="bg-heading_blue h-full">
-        <div className="grid justify-items-center">
-        <h1 className="text-3xl text-purple-700 font-semibold my-7">Popular Projects </h1>
+              <div className="grid justify-items-center mt-17  mx-24 ">
+                <PortfolioSection />
+              </div>
+            </main>
+          </div>
         </div>
-        
-        <div className="grid justify-items-center mt-17  mx-24 ">
-          {/* Portfoliio sectin */}
-          <PortfolioSection />
-        </div>
-      </main>
+      </div>
     </div>
   );
 }
