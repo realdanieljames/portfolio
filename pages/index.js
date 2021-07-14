@@ -12,17 +12,17 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-5">
           {/* ===================================== {{ SiDEBAR }} =============================*/}
-          <div>
+          <div className="bg-heading_blue border-r-4 border-blue-900">
             <SideBar />
           </div>
           {/* ====================== {{ Header }} ================================================== */}
-          <div>
-            <Header className="z-10" />
+          <div className="col-span-4">
+            <Header />
 
             {/* ====================== {{ PORTFOLIO SECTION }} ================================================== */}
-            <main className="bg-heading_blue h-full">
+            <main className="bg-heading_blue ">
               <div className="grid justify-items-center">
                 <h1 className="text-3xl text-purple-700 font-semibold my-7">
                   Popular Projects{" "}
