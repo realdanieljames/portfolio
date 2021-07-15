@@ -16,6 +16,13 @@ export default [{
         // imageUrl: "/portfolioImages/amazon-clone-red.mov",
         imageUrl: "https://media.giphy.com/media/XXiy9zA8MPWGNtgiUE/giphy.mp4",
         projectDescription: "This project was done by following a tutorial on YouTube. A fellow by the name of Sonny Sangha went through an entire build and walk us(the viewers) through it. I am proud of this one because it was my second introduction on a project using Next,js and TailwindCSS. We also used FakeStoreAPI for the product content"
+    },
+    {
+        name: "Calories Tracker",
+        website: "#",
+        // imageUrl: "/portfolioImages/calories-tracker.mov",
+        imageUrl: "https://media.giphy.com/media/Ci8oZUWOxgH5eQsHhS/source.mp4",
+        projectDescription: "This project was done in partnership with a team-mate by the name of Ruben Rodriguez (ruben.rodriguez@codeimmmersives.com. We were tasked with creating a project MERN stack project. A compmlete front-end and back-end compatible project. The purpose of this project is to allow signed-in users to create, update, or delete their exercises and food intake. This data is collected and instantly calculated to display to the user their total burned calories, and their total calorie intake based on the data added by the user in the add-exercise field and the add-food field. Technologies used include [ Mongo DB, Express JS, React JS, Node Js, React Redux"
     }
 
 
