@@ -1,9 +1,10 @@
 import portfolioProjects from "../data/portfolioProjects";
 import ProjectCard from "../components/ProjectCard";
 
+
 function PortfolioSection() {
   return (
-    <main className="bg-heading_blue ">
+    <main className="bg-heading_blue pt-24">
       <div className="grid justify-items-center">
         <h1 className="text-3xl text-purple-700 font-semibold my-7">
           Popular Projects{" "}

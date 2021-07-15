@@ -13,6 +13,9 @@ module.exports = {
                     // DEFAULT: "#E5E1D7"
                     DEFAULT: "#FEFEF9"
                 },
+                sidebar_blue: {
+                    DEFAULT: "#CEEFFF"
+                }
             }
         },
     },
