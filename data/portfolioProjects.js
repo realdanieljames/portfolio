@@ -7,7 +7,8 @@ export default [{
     }, {
         name: "Energy Food App",
         website: "#",
-        imageUrl: "/portfolioImages/energy-food-app.mov",
+        // imageUrl: "/portfolioImages/energy-food-app.mov",
+        imageUrl: "https://media.giphy.com/media/mEzGK0uhSwB6G4wSE2/source.mp4",
         projectDescription: "This project was done with a classmate Dang Huong (Miley)(miley.dawn@codeimmersives.com). In class we were tasked with the duty to create a wireframe with our project partner. With this wireframe we will design a CRUD (Create, Read, Update, Delete) application which allows a user to add/edit/delete grocery items to their list."
     },
     {
@@ -22,8 +23,15 @@ export default [{
         website: "#",
         // imageUrl: "/portfolioImages/calories-tracker.mov",
         imageUrl: "https://media.giphy.com/media/Ci8oZUWOxgH5eQsHhS/source.mp4",
-        projectDescription: "This project was done in partnership with a team-mate by the name of Ruben Rodriguez (ruben.rodriguez@codeimmmersives.com. We were tasked with creating a project MERN stack project. A compmlete front-end and back-end compatible project. The purpose of this project is to allow signed-in users to create, update, or delete their exercises and food intake. This data is collected and instantly calculated to display to the user their total burned calories, and their total calorie intake based on the data added by the user in the add-exercise field and the add-food field. Technologies used include [ Mongo DB, Express JS, React JS, Node Js, React Redux"
-    }
+        projectDescription: "This project was done in partnership with a team-mate by the name of Ruben Rodriguez (ruben.rodriguez@codeimmmersives.com). We were tasked with creating a project MERN stack project. A compmlete front-end and back-end compatible project. The purpose of this project is to allow signed-in users to create, update, or delete their exercises and food intake. This data is collected and instantly calculated to display to the user their total burned calories, and their total calorie intake based on the data added by the user in the add-exercise field and the add-food field. Technologies used include [ Mongo DB, Express JS, React JS, Node Js, React Redux"
+    },
+    {
+        name: "Google Maps Job Search",
+        website: "#",
+        // imageUrl: "/portfolioImages/calories-tracker.mov",
+        imageUrl: "https://media.giphy.com/media/VESW4HlQ9SpdqUyNBa/source.mov",
+        projectDescription: ""
+    },
 
 
 ]
