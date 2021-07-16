@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-        domains: ["raw.githubusercontent.com"]
+        domains: ["media.giphy.com"]
     }
 }

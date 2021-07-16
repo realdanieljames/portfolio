@@ -2,7 +2,7 @@
 
 function SideBar() {
   return (
-    <div className="bg-gradient-to-r from-blue-100 via-blue-200 to-pink-100
+    <div className="bg-gradient-to-r from-blue-100 via-purple-200 to-purple-400
      border-t-2 border-r-2 border-blue-900 rounded-tr-lg shadow-xl">
       <div className="w-full h-auto border-b-2 border-blue-900 cursor-pointer ">
 
